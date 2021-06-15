@@ -1,0 +1,70 @@
+header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: black;
+  flex-wrap: wrap;
+  max-height: 200px;
+  float: right;
+}
+
+nav {
+  display: inline;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+}
+
+header img #app {
+  max-width: 10%;
+}
+
+header img #profile {
+  max-width: 10%;
+}
+
+#app {
+  max-width: 50px;
+}
+
+#profile {
+  max-width: 50px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.google {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.google img {
+  margin-top: 5%;
+  max-width: 20%;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  max-width: 1000px;
+}
+
+nav ul .favicons {
+  max-width: 50%;
+  box-sizing: content-box;
+}
